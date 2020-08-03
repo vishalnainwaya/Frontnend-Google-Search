@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <style>
+            #mp{
+                position: fixed;
+                font-size: 21px;
+                top: 10px;
+                right: 10px;
+                margin-right: 10px;
+            }
+            h1{
+                color: blue;
+                font-size: 60px;
+                margin-top: 180px;
+            }
+            .div1{
+                text-align: center;
+            }
+
+            #io1{
+                text-align: left;
+                font-size: medium;
+                border-width: thin;
+                border-color: gray;
+                border-radius: 25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                width: 500px;
+                
+            }
+            #io1:focus, #sub:focus{
+                outline: none;
+            }
+
+            #sub{
+                border-width: thin;
+                background-color: #EFF1F3;
+                border-color: #EFF1F3;
+                border-width: thin;
+                border-radius: 25px;
+                padding: 10px 20px 10px 20px;
+                color: #656666;
+            }
+            #img_style{
+              margin-top: 120px;
+
+            width: 300px;
+            height: 115x;
+           
+        }
+
+        </style>
+    </head>
+    <body>
+        <a id="mp" href="index.html">Google Search</a> 
+        <div style="text-align: center;">
+            <img id="img_style"  src="google.jpg"  alt="Google Image Search" >
+    
+        </div>
+        
+        <div class="div1">
+            <form action="https://www.google.com/search">
+                <input id="io1" type="text" name="q" ><br><br>
+                <input type="hidden" name=tbm value="isch">
+                <input id="sub" type="submit" value="Image Search">
+            </form>
+
+        </div>
+        
+    </body>
+
+<!--
+
+    https://www.google.com/search?q=sky&tbm=isch
+
+
+-->
+    
